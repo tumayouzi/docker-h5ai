@@ -4,11 +4,9 @@
 
 ![screenshot](https://cloud.githubusercontent.com/assets/776829/3098666/440f3ca6-e5ef-11e3-8979-36d2ac1a36a0.png)
 
-See also the [demo directory](http://larsjung.de/h5ai/sample).
-
 ## Usage
 
-This docker image is available as an [automated build on Docker Hub](https://index.docker.io/u/clue/h5ai/), so there's no setup required. Using this image for the first time will start a download automatically. Further runs will be immediate, as the image will be cached locally.
+This docker image is available as an [automated build on Docker Hub](https://index.docker.io/u/tumayouzi/h5ai/), so there's no setup required. Using this image for the first time will start a download automatically. Further runs will be immediate, as the image will be cached locally.
 
 The recommended way to run this container looks like this:
 
