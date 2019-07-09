@@ -1,8 +1,8 @@
 FROM ubuntu
 MAINTAINER tumayouzi <tumayouzi@gmail.com>
 
-RUN DEBIAN_FRONTEND=noninteractive apt update && apt install -y \
-  nginx php5-fpm supervisor \
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y \
+  nginx php-fpm supervisor \
   wget unzip patch
 
 # install h5ai and patch configuration
